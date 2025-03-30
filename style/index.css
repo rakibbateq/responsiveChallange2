@@ -32,6 +32,9 @@
     font-weight: 600;
 
 }
+.button:hover{
+    background-color: #f49b9b;
+}
 /* 2nd part  */
 .text{
     text-align: center;
@@ -115,8 +118,21 @@
 #Subscribe{
     background: #c6d442;
     padding: 40px;
+    border-radius: 5px;
 }
-
+.human{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: #0b0b0b;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.human:hover{
+    background-color: #fff;
+    color: #000;
+}
 /* responsive part  */
 @media screen and (max-width:576px) {
     .image-text{
