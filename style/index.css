@@ -53,14 +53,20 @@
     background-color: #ec9797;
     color: black;
 }
+.amount:hover{
+    color: #ea1111;
+    background-color: #eebebe;
+    /* transition: 0.5ms; */
+}
 .another{
     text-align: center;
 }
 .input{
   
-    width: 400px;
+    width: 300px;
     height: 35px;
     border-radius: 5px;
+    margin-bottom: 8px;
     
 }
 /* 3rd part  */
@@ -78,19 +84,21 @@
     background-color: #f4ea53;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 15px;
     width: 300px;
-    border-radius: 4px;
+    border-radius: 8px;
 
 }
+/* 4th part  */
 .depends{
     display: flex;
     gap: 10px;
     justify-content: space-evenly;
     /* align-items: ; */
-    /* background-color: #9b9e88; */
+    background-color: #e1ec94;
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
 
 }
 .depends-text{
@@ -102,6 +110,11 @@
     width: 600px;
     height: 500px;
     border-radius: 5px;
+} 
+/* 5th part */
+#Subscribe{
+    background: #c6d442;
+    padding: 40px;
 }
 
 /* responsive part  */
@@ -131,7 +144,7 @@
     }
     .amount{
 
-        width: 150px;
+        width: 130px;
         height: 75px;
         padding: 20px;
     }
